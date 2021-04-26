@@ -1,0 +1,422 @@
+/* Global Styles */
+
+*,
+*::before,
+*::after {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    font-family: 'Coda Caption', sans-serif;
+    overflow-x: hidden;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar-brand img
+{
+    width:120px;
+}
+
+.navbar-brand img:hover {
+
+    width: 150px;
+    transition: all 0.5s;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5PX;
+}
+
+.navbar
+{
+   padding: 1em 0 !important; 
+   height: 10vh;
+}
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+}
+.nav-item {
+
+    font-size: 25px;
+    letter-spacing: 2;
+    text-transform: uppercase;
+    padding: 20;
+    font-family: 'Coda Caption', sans-serif;
+    text-decoration: none;
+    
+}
+
+.nav-item:hover {
+
+    font-size: 30px;
+    transition: all 0.3s;
+    text-shadow: 2px 5px rgb(0,0,0,0.25);
+}
+
+
+.banner
+{
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: 2px 20px rgb(0,0,0,0.8);
+    box-shadow: 2px 10px 10px rgb(0,0,0,0.2) inset;
+}
+
+.banner-text
+{
+    font-size: 36px;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.banner-text .btn-primary
+{
+    background-image: linear-gradient(to right, #3636f3,#be43f1);
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 12px;
+    padding: 15px 30px;
+    margin-top: 10px;
+}
+
+
+/* hero */
+.hero {
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,1.0)),
+        url("bg.png") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.quality {
+
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 2rem;
+
+}
+
+.title {
+
+    font-size: 12rem;
+    font-family: "Cormorant Garamond";
+    color: white;
+}
+
+.go-top {
+
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+    background: black;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+/* Offers */
+.offers {
+
+    width: 100%;
+    background-color: #f9f9f9;
+    padding-bottom: 10rem;
+
+}
+
+.offers h3 {
+
+    margin-bottom: 5rem;
+}
+
+.section-title {
+
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 5rem;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.section-subtitle {
+
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: #afafaf;
+    font-weight: 300;
+    position: relative;
+}
+
+.three-columns-grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 0.15fr);
+    grid-gap: 5rem;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.subtitle {
+
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(255,255,255);
+    font-family: 'Coda Caption', sans-serif;
+    padding: 10;
+}
+
+.paragraph-container {
+
+    background-color: rgb(65, 163, 75);
+    display: flex;
+    border: 3px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.paragraph-container:hover {
+
+    background-color: rgb(0,0,0,0.45);
+}
+
+.paragraph {
+
+    margin-top: 2rem;
+    font-size: 12px;
+    color: rgb(255,255,255);
+    font-family: 'Coda Caption', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.paragraph:hover {
+
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.square-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-gap: 0rem;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.square-one {
+
+    background-color:rgb(0,100,145);
+    border 3px;
+    width: 400px;
+    height: 100px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    box-shadow: 2px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+
+}
+
+.square-one:hover {
+
+    background-color: rgba(0,100,145, 0.5);
+    width: 500px;
+    transition: all 0.5s;
+}
+
+.square-two {
+
+    background-color: rgb(227,24,55);
+    border: 3px;
+    width: 400px;
+    height: 100px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    box-shadow: 2px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+
+}
+
+.square-two:hover {
+
+    background-color: rgba(227,24,55,0.5);
+    width: 500px;
+    transition: all 0.5s;
+}
+
+.circle-middle {
+
+    background-color: white;
+    border: 3px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 5px rgba(0,0,0,0.5);
+}
+
+.square-one-text {
+
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10;
+    text-shadow: 2px 6.5px rgba(0,0,0,0.5);
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.square-one-text:hover {
+
+    font-size: 60px;
+    padding: 5;
+    transition: all 0.3s;
+    
+}
+
+.square-two-text {
+
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10;
+    text-shadow: 2px 6.5px rgba(0,0,0,0.5);
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.square-two-text:hover {
+
+    font-size: 60px;
+    padding: 5;
+    transition: all 0.3s;
+}
+
+.circle-middle-text {
+
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 25;
+    text-shadow: 2px 6.5px rgba(0,0,0,0.2);
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.grid-item {
+
+    background-color: rgba(255,255,255,0.4);
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 2px 5px rgba(0,0,0,0.5);
+
+}
+
+.grid-item:hover {
+
+    width: 260px;
+    transition: all 0.5s;
+}
+
+.offer-image {
+
+    width: 220px;
+    height: 150px;
+    border: 3px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.offer-image:hover {
+
+    width: 260px;
+    transition: all 0.5s;
+
+}
+
+
+
+.top-text {
+
+    padding: 20;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottom-text {
+
+    padding: 20;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-text-text {
+
+    color: rgb(0,100,145);
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 2px 6.5px rgba(0,0,0,0.5);
+    font-family: 'Coda Caption', sans-serif;
+
+}
+
+.top-text-text:hover {
+
+    color: rgb(227,24,55);
+    transition: all 1.0s;
+}
+
+.bottom-text-text {
+
+    color: rgb(227,24,55);
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 2px 6.5px rgba(0,0,0,0.5);
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.bottom-text-text:hover {
+
+    color: rgb(0,100,145);
+    transition: all 1.0s;
+}
