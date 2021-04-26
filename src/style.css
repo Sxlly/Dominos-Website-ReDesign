@@ -114,7 +114,61 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: 0.8s;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.75);
 
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 45s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes animate{
+
+    0%{
+
+        background-image: url(bg.png);
+        
+
+
+    }
+    20%{
+
+        background-image: url(bg2.jpg);
+        
+
+
+    }
+    40%{
+
+        background-image: url(bg3.jpg);
+        
+
+
+    }
+    60%{
+
+        background-image: url(bg4.jpg);
+        
+
+
+
+    }
+    80%{
+
+        background-image: url(bg5.jpg);
+
+
+    }
+    100%{
+
+        background-image: url(bg6.jpg);
+
+    }
 }
 
 .quality {
@@ -363,6 +417,28 @@ a{
 
     width: 260px;
     transition: all 0.5s;
+
+    
+}
+
+.grid-item-top {
+
+    
+    min-height: 40px;
+    background-color: rgb(0,100,145);
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.grid-item-top-alt {
+
+    min-height: 40px;
+    background-color: rgb(227,24,55);
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .offer-image {
@@ -370,7 +446,6 @@ a{
     width: 220px;
     height: 150px;
     border: 3px;
-    border-radius: 15px;
     cursor: pointer;
 
 }
