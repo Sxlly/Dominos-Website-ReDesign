@@ -599,6 +599,7 @@ a{
     position: fixed;
     left: 1700px;
     top: 105px;
+    font-family: 'Coda Caption', sans-serif;
 }
 
 .open-btn:hover {
