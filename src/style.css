@@ -47,8 +47,9 @@ a{
 
 .navbar
 {
-   padding: 1em 0 !important; 
+   padding: 10; 
    height: 10vh;
+   z-index: 1000;
 }
 .navbar-toggler
 {
@@ -80,6 +81,7 @@ a{
     padding-right: 60px;
     box-shadow: 2px 20px rgb(0,0,0,0.8);
     box-shadow: 2px 10px 10px rgb(0,0,0,0.2) inset;
+    z-index: 1;
 }
 
 .banner-text
@@ -115,7 +117,8 @@ a{
     justify-content: center;
     text-align: center;
     transition: 0.8s;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.75);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.85);
+    z-index: 900;
 
     animation-name: animate;
     animation-direction: alternate-reverse;
@@ -503,3 +506,91 @@ a{
     color: rgb(0,100,145);
     transition: all 1.0s;
 }
+
+
+/* MENU PAGE CSS */
+
+.subBar {
+
+    background-color: rgba(227,24,55, 0.85);
+    border 3px;
+    width: 100vw;
+    height: 7vh;
+    box-shadow: 2px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    position: relative;
+    top: -450px;
+    z-index: 900;
+
+}
+
+.drop-filterbox {
+
+    background-color: rgba(255,255,255,0.5);
+    width: 300px;
+    height: 50px;
+    border: 3px;
+    border-radius: 15px;
+    position: fixed;
+    left: 350px;
+    top: 107.5px;
+
+}
+
+
+.drop-filterbox-text {
+
+
+    padding: 10;
+    font-family: 'Coda Caption', sans-serif;
+    color: rgba(0,0,0,0.50);
+}
+
+.side-panel {
+
+    height: 250px;
+    width: 0px;
+    position: fixed;
+    z-index: 950;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,100,145);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-panel a {
+
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-panel a:hover {
+
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.open-btn {
+font-size: 20px;
+cursor: pointer;
+background-color: #111;
+color: white;
+padding: 10px 15px;
+border: none;
+}
+
+.open-btn:hover {
+background-color: #444;
+} 

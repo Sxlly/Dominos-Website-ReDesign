@@ -40,9 +40,11 @@
         <div class="banner">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="logo.png" class="logo"></a>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         
@@ -121,6 +123,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="offers.html">Offers</a>
                         </li>
+
                     </ul>
 
                     <ul class="navbar-nav ml-auto">
@@ -128,10 +131,38 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Login</a>
                         </li>
-
                     </ul>
+
                 </div>
             </nav>
         </div>
+        </div>
+
+        
+        <main>
+
+            <div class="hero" id="hero">
+
+                <div class="subBar">
+                    <div class="drop-filterbox">
+                        <h3 class="drop-filterbox-text">Filter...</h3>
+                    </div>
+                </div>
+
+                <div class="side-panel" id="side-panel">
+                    <a href="javascript:void(0)"
+                       class="close-btn"
+                       onclick="closeNav()">
+                       &times;
+                    </a>
+                    <a href="#">Pizzas</a>
+                    <a href="#">Sides</a>
+                    <a href="#">Drinks</a>
+                    <a href="#">Deserts</a>
+                </div>
+
+                <button class="open-btn" onclick="openNav()">&#9776;Menu</button>
+            </div>
+        </main>
     </body>
 </html>
