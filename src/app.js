@@ -1,26 +1,30 @@
-let menuToggler = document.querySelector(".nav__button");
-let navLinks = document.querySelector(".nav-link");
-let body = document.querySelector("body");
+const selected = document.querySelector(".selected");
+const optionsContainer = document.querySelector(".options-container");
+
+const optionsList = document.querySelectorAll(".option");
 
 
-menuToggler.addEventListener("click", () => {
-    body.classList.toggle("open");
+selected.addEventListener("click", () => {
+    optionsContainer.classList.toggle("active");
 });
 
-navLinks.forEach(link => {
-    link.addEventListener("click", () => {
-        body.classList.toggle("open");
+optionsList.forEach(o => {
+    o.addEventListener("click", () => {
+        selected.innerHTML = o.querySelector("label").innerHTML;
+        optionsContainer.classList.remove("active");
     });
-
 });
 
 
 function openNav() {
 
     document.getElementById("side-panel").style.width = "250px";
-}
+};
 
 function closeNav() {
 
     document.getElementById("side-panel").style.width = "0";
-}
+};
+
+
+
