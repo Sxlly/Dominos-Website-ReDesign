@@ -548,7 +548,7 @@ a{
 
 .side-panel {
 
-    height: 250px;
+    height: 80vh;
     width: 0px;
     position: fixed;
     z-index: 950;
@@ -567,6 +567,7 @@ a{
     color: #818181;
     display: block;
     transition: 0.3s;
+    font-family: 'Coda Caption', sans-serif;
 }
 
 .side-panel a:hover {
@@ -583,14 +584,15 @@ a{
 }
 
 .open-btn {
-font-size: 20px;
-cursor: pointer;
-background-color: #111;
-color: white;
-padding: 10px 15px;
-border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
 }
 
 .open-btn:hover {
-background-color: #444;
+
+    background-color: #444;
 } 

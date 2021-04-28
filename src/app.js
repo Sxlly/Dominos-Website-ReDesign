@@ -14,3 +14,13 @@ navLinks.forEach(link => {
 
 });
 
+
+function openNav() {
+
+    document.getElementById("side-panel").style.width = "250px";
+}
+
+function closeNav() {
+
+    document.getElementById("side-panel").style.width = "0";
+}
