@@ -139,8 +139,47 @@
             <div class="hero" id="hero">
 
                 <div class="subBar">
-                    <div class="drop-filterbox">
-                        <h3 class="drop-filterbox-text">Filter...</h3>
+
+                    <div class="select-box-container">
+                        <div class="select-box">
+                            <div class="options-container">
+                                <div class="option">
+                                    <input
+                                        type="radio"
+                                        class="radio"
+                                        id="menu-items"
+                                        name="category"
+                                    />
+                                    <label for="menu-items">Menu Items</label>
+                            </div>
+    
+    
+                                <div class="option">
+                                    <input type="radio" class="radio" id="pizzas" name="category" />
+                                    <label for="pizzas" class="filter-label">Pizzas</label>
+                                </div>
+    
+                                
+                                <div class="option">
+                                    <input type="radio" class="radio" id="sides" name="category" />
+                                    <label for="sides" class="filter-label">Sides</label>
+                                </div>
+    
+                                <div class="option">
+                                    <input type="radio" class="radio" id="drinks" name="category" />
+                                    <label for="drinks" class="filter-label">Drinks</label>
+                                </div>
+    
+                                <div class="option">
+                                    <input type="radio" class="radio" id="desserts" name="category" />
+                                    <label for="desserts" class="filter-label">Desserts</label>
+                                </div>
+                            </div>
+    
+                            <div class="selected">
+                                Select Menu Filter...
+                            </div>
+                        </div>
                     </div>
 
                     <button class="open-btn" onclick="openNav()">&#9776;Menu</button>
@@ -158,51 +197,6 @@
                     <a href="#">Drinks</a>
                     <a href="#">Deserts</a>
                 </div>
-
-                <div class="select-box-container">
-                    <div class="select-box">
-                        <div class="options-container">
-                            <div class="option">
-                                <input
-                                    type="radio"
-                                    class="radio"
-                                    id="menu-items"
-                                    name="category"
-                                />
-                                <label for="menu-items">Menu Items</label>
-                        </div>
-
-
-                            <div class="option">
-                                <input type="radio" class="radio" id="pizzas" name="category" />
-                                <label for="pizzas">Pizzas</label>
-                            </div>
-
-                            
-                            <div class="option">
-                                <input type="radio" class="radio" id="sides" name="category" />
-                                <label for="sides">Sides</label>
-                            </div>
-
-                            <div class="option">
-                                <input type="radio" class="radio" id="drinks" name="category" />
-                                <label for="drinks">Drinks</label>
-                            </div>
-
-                            <div class="option">
-                                <input type="radio" class="radio" id="desserts" name="category" />
-                                <label for="desserts">Desserts</label>
-                            </div>
-                        </div>
-
-                        <div class="selected">
-                            Select Menu Category
-                        </div>
-                    </div>
-                </div>
-
-
-
             </div>
         </main>
 
