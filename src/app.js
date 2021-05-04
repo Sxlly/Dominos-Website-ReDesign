@@ -169,6 +169,16 @@ function updateCartTotal() {
 }
 
 
+function openNavCart() {
+
+    document.getElementById("shopping-cart-container").style.width = "250px";
+};
+
+function closeNavCart() {
+
+    document.getElementById("shopping-cart-container").style.width = "0";
+};
+
 
 
 

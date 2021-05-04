@@ -181,6 +181,7 @@
                         </div>
                     </div>
                     <button class="open-btn" onclick="openNav()">&#9776; Menu</button>
+                    <button class="open-btn-cart" onclick="openNavCart()">&#9776; Cart</button>
                 </div>
 
                 <div class="side-panel" id="side-panel">
@@ -219,7 +220,12 @@
                     </div>
                 </div>
 
-                <div class="shopping-cart-container">
+                <div class="shopping-cart-container" id="shopping-cart-container">
+                    <a href="javascript:void(0)"
+                       class="close-btn-cart"
+                       onclick="closeNavCart()">
+                       &times;
+                    </a>
                     <h2 class="section-header">Shopping Cart</h2>
                     <div class="cart-row">
                         <span class="cart-item cart-header cart-column">ITEM</span>
