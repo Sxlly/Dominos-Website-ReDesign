@@ -745,7 +745,7 @@ a{
 
 .item {
 
-    margin: 30px;
+    margin: 20px;
     border: 3px;
     background-color: rgba(255,255,255,0.5);
     border-radius: 15px;
@@ -781,6 +781,7 @@ a{
     flex-grow: 1;
     color: rgb(255,255,255);
     font-family: 'Coda Caption', sans-serif;
+    font-size: 16px;
 }
 
 .current-items {
@@ -846,6 +847,18 @@ a{
     background-color: #444;
     box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
     transition: all 0.3s;
+}
+
+.fa-shopping-cart {
+
+    font-size: 65px;
+    cursor: pointer;
+    color: rgb(0,100,145, 1.0);
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    left: 1750px;
+    top: 105px;
 }
 
 .cart-header {
