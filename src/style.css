@@ -851,14 +851,22 @@ a{
 
 .fa-shopping-cart {
 
-    font-size: 65px;
+    font-size: 45px;
     cursor: pointer;
-    color: rgb(0,100,145, 1.0);
+    color: rgba(255,255,255,1.0);
     padding: 10px 15px;
     border: none;
     position: fixed;
     left: 1750px;
-    top: 105px;
+    top: 100px;
+}
+
+.fa-shopping-cart:hover {
+
+    color: #444;
+    text-shadow: 2px 5px 8px rgba(0,0,0,0.5);
+    transition: all 0.3s;
+
 }
 
 .cart-header {
