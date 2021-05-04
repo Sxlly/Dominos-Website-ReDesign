@@ -57,7 +57,7 @@ function ready() {
         input.addEventListener('change', quantityChanged)
     }
 
-    var addToCartButton = document.getElementsByClassName('shop-item-button')
+    var addToCartButton = document.getElementsByClassName('item-button')
 
     for (var index = 0; index < addToCartButton.length; index++) {
 
@@ -108,7 +108,7 @@ function addToCartClicked(event) {
     var shopItem = button.parentElement.parentElement
     var title = shopItem.getElementsByClassName('item-title')[0].innerText
     var price = shopItem.getElementsByClassName('item-price')[0].innerText
-    var imageSrc = shopItem.getElementsByClassName('item-image')[0].src
+    var imageSrc = shopItem.getElementsByClassName('item-img')[0].src
     addItemToCart(title, price, imageSrc)
     updateCartTotal()
 }
