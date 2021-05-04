@@ -853,6 +853,8 @@ a{
     font-weight: bold;
     font-size: 1.25em;
     color: rgb(255,255,255);
+    font-family: 'Coda Caption', sans-serif;
+    text-shadow: 2px 5px 5px rgba(0,0,0,0.5);
 }
 
 .cart-column {
@@ -944,6 +946,32 @@ a{
 
     color: #333;
     font-size: 1.1em;
+}
+
+/* button CSS */
+
+.btn {
+
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.btn-primary {
+
+    color: white;
+    background-color: rgba(0,100,145, 0.85);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+
+    background-color: rgba(0,0,0,0.95);
+    transition: all 0.3s;
 }
 
 

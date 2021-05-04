@@ -171,7 +171,7 @@ function updateCartTotal() {
 
 function openNavCart() {
 
-    document.getElementById("shopping-cart-container").style.width = "500px";
+    document.getElementById("shopping-cart-container").style.width = "510px";
 };
 
 function closeNavCart() {
