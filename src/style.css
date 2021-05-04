@@ -746,6 +746,10 @@ a{
 .item {
 
     margin: 30px;
+    border: 3px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5);
 }
 
 .item-title {
@@ -757,6 +761,7 @@ a{
     font-size: 1.5rem;
     color: rgb(255,255,255);
     margin-bottom: 15px;
+    font-family: 'Coda Caption', sans-serif;
 }
 
 .item-img {
@@ -775,6 +780,7 @@ a{
 
     flex-grow: 1;
     color: rgb(255,255,255);
+    font-family: 'Coda Caption', sans-serif;
 }
 
 .current-items {
@@ -791,7 +797,7 @@ a{
     position: fixed;
     z-index: 900;
     top: 95px;
-    left: 1000px;
+    left: 1400px;
     background-color: rgba(255,255,255,0.85);
     overflow-x: hidden;
     padding-top: 60px;

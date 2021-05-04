@@ -176,7 +176,7 @@ function openNavCart() {
 
 function closeNavCart() {
 
-    document.getElementById("shopping-cart-container").style.width = "0";
+    document.getElementById("shopping-cart-container").style.width = "0px";
 };
 
 
