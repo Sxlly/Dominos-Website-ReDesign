@@ -727,3 +727,46 @@ a{
     font-family: 'Coda Caption', sans-serif;
 
 }
+
+/* MENU ITEMS CSS */
+
+.item {
+
+    margin: 30px;
+}
+
+.item-title {
+
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(255,255,255);
+    margin-bottom: 15px;
+}
+
+.item-img {
+
+    height: 150px;
+}
+
+.item-details {
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.item-price {
+
+    flex-grow: 1;
+    color: rgb(255,255,255);
+}
+
+.current-items {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
