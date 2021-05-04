@@ -759,6 +759,7 @@ a{
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
+    padding: 10px;
     color: rgb(255,255,255);
     margin-bottom: 15px;
     font-family: 'Coda Caption', sans-serif;
