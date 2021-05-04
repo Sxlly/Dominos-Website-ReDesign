@@ -730,6 +730,18 @@ a{
 
 /* MENU ITEMS CSS */
 
+.menu-items-container {
+
+    z-index: 900;
+    position: fixed;
+}
+
+.shopping-cart-container {
+
+    position: fixed;
+    
+}
+
 .item {
 
     margin: 30px;
