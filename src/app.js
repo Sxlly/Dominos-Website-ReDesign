@@ -21,11 +21,13 @@ optionsList.forEach(o => {
 function openNav() {
 
     document.getElementById("side-panel").style.width = "250px";
+
 }
 
 function closeNav() {
 
     document.getElementById("side-panel").style.width = "0";
+
 }
 
 
@@ -174,12 +176,15 @@ function updateCartTotal() {
 function openNavCart() {
 
     document.getElementById("shopping-cart-container").style.width = "510px";
-};
+
+
+}
 
 function closeNavCart() {
 
     document.getElementById("shopping-cart-container").style.width = "0px";
-};
+
+}
 
 
 
