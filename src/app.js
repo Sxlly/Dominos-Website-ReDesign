@@ -62,9 +62,49 @@ function ready() {
     for (var index = 0; index < addToCartButton.length; index++) {
 
         var button = addToCartButton[index]
-        button.addEventListener('click', addToCartButton)
+        button.addEventListener('click', addToCartClicked)
     }
+
+    document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
+
+
+function purchaseClicked {
+
+    alert('Thank You For Your Order')
+
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    while (cartItems.hasChildNodes()) {
+
+        cartItems.removeChild(cartItems.firstChild)
+    }
+
+    updateCartTotal()
+}
+
+
+function removeCartItem(event) {
+
+    var buttonClicked = event.target
+    buttonClicked.parentElement.parentElement.remove()
+    updateCartTotal()
+}
+
+function quantityChanged(event) {
+
+    var input = event.target
+    if (isNaN(input.value) || input.value <= 0) {
+
+        input.value = 1
+    }
+
+    updateCartTotal()
+
+}
+
+
+
+
 
 
 
