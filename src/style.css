@@ -580,6 +580,7 @@ a{
 }
 
 .sidepanel .closebtn {
+
     position: absolute;
     top: 0;
     right: 25px;
@@ -790,7 +791,7 @@ a{
     position: fixed;
     z-index: 900;
     top: 95px;
-    left: 100px;
+    left: 1000px;
     background-color: rgba(255,255,255,0.85);
     overflow-x: hidden;
     padding-top: 60px;
@@ -808,6 +809,37 @@ a{
     font-family: 'Coda Caption', sans-serif;
     text-transform: uppercase;
     padding: 50;
+}
+
+.shopping-cart-container .closebtn {
+
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+.open-btn-cart {
+
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(0,100,145, 1.0);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    left: 1750px;
+    top: 105px;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.open-btn-cart:hover {
+
+    background-color: #444;
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
+    transition: all 0.3s;
 }
 
 .cart-header {
