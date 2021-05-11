@@ -178,13 +178,13 @@ function openNavCart() {
     document.getElementById("shopping-cart-container").style.width = "510px";
 
 
-}
+};
 
 function closeNavCart() {
 
     document.getElementById("shopping-cart-container").style.width = "0px";
 
-}
+};
 
 
 

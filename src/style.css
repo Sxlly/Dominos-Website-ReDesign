@@ -169,7 +169,7 @@ a{
     }
     100%{
 
-        background-image: url(bg6.jpg);
+        background-image: url(bg3.jpg);
 
     }
 }
@@ -921,7 +921,7 @@ a{
 .cart-item-image {
 
     width: 75px;
-    height: auto;
+    height: 75px;
     border-radius: 10px;
 }
 
@@ -954,12 +954,13 @@ a{
     text-align: end;
     margin-top: 10px;
     margin-right: 10px;
+    font-size: 16px;
 }
 
 .cart-total-title {
 
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 15px;
     color: black;
     margin-right: 20px;
 }
@@ -997,6 +998,58 @@ a{
     transition: all 0.3s;
 }
 
+
+/* OFFERS PAGE CSS */
+
+.location-bar-container {
+
+    justify-content: center;
+    padding: 15px;
+    position: fixed;
+    top: 20vh;
+    text-align: center;
+
+}
+
+.location-search-bar-text {
+
+    text-align: center;
+    font-family: 'Coda Caption', sans-serif;
+    color: rgb(255,255,255);
+    padding: 20px;
+
+}
+
+.location-search-bar-text-text {
+
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 5px 5px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+}
+
+.location-search-bar {
+
+    text-align: center;
+    font-family: 'Coda Caption', sans-serif;
+    color: rgb(0,100,145);
+    padding: 10px;
+}
+
+.search-bar {
+
+    background-color: rgba(255,255,255,0.75);
+    border: 3px;
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 2px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    text-align: center;
+
+
+}
 
 
 
