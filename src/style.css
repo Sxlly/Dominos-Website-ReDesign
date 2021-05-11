@@ -1034,6 +1034,7 @@ a{
     font-family: 'Coda Caption', sans-serif;
     color: rgb(0,100,145);
     padding: 10px;
+    padding-bottom: 100px;
 }
 
 .search-bar {
