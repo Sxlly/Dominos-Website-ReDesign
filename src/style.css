@@ -1064,11 +1064,13 @@ a{
 /* STORES CSS PAGE */
 
 #map {
+
     height: 100%;
+
   }
   
 #description {
-    font-family: Roboto;
+    font-family: 'Coda Caption', sans-serif;
     font-size: 15px;
     font-weight: 300;
 }
@@ -1093,10 +1095,11 @@ a{
     outline: none;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     background-color: #fff;
-    font-family: Roboto;
+    font-family: 'Coda Caption', sans-serif;
 }
 
 #pac-container {
+
     padding-bottom: 12px;
     margin-right: 12px;
 }
@@ -1113,18 +1116,24 @@ a{
 }
 
 #pac-input {
-    background-color: #fff;
-    font-family: Roboto;
+
+    background-color: rgba(255,255,255,0.75);
+    font-family: 'Coda Caption', sans-serif;
     font-size: 15px;
     font-weight: 300;
     margin-left: 12px;
     padding: 0 11px 0 13px;
     text-overflow: ellipsis;
     width: 400px;
+
     }
 
 #pac-input:focus {
+
     border-color: #4d90fe;
+    width: 500px;
+    transition: all 0.5s;
+
 }
 
 #title {
