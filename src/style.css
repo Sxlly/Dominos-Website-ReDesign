@@ -1125,6 +1125,7 @@ a{
     padding: 0 11px 0 13px;
     text-overflow: ellipsis;
     width: 400px;
+    cursor: pointer;
 
     }
 
@@ -1134,6 +1135,13 @@ a{
     width: 500px;
     transition: all 0.5s;
 
+}
+
+#pac-input:hover {
+
+    width: 450px;
+    background-color: rgba(0,100,145, 0.35);
+    transition: all 0.3s;
 }
 
 #title {
