@@ -5,6 +5,10 @@ const optionsContainer = document.querySelector(".options-container");
 
 const optionsList = document.querySelectorAll(".option");
 
+var video = document.querySelector('.video');
+var juice = document.querySelector('.orange-juice');
+var btn = document.getElementById('play-pause');
+
 
 selected.addEventListener("click", () => {
     optionsContainer.classList.toggle("active");
@@ -251,9 +255,7 @@ function initAutocomplete() {
     });
 }
 
-var video = document.querySelector('.video');
-var juice = document.querySelector('.orange-juice');
-var btn = document.getElementById('play-pause');
+
 
 function togglePlayPause() {
 

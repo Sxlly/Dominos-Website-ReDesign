@@ -1156,6 +1156,101 @@ a{
     width: 345px;
 }
 
+/* ABOUT US CSS */
+
+.video-container {
+
+    display: flex;
+    background-color: #ccc;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.video {
+
+    width: 100%;
+}
+
+.video-buttons {
+
+    padding: 10px;
+}
+
+.video-buttons button {
+
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.video-buttons button:before {
+
+    content: '\f144';
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.c-video {
+
+    width: 100%;
+    max-width: 1080px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.c-video:hover .video-controls {
+
+    transform: translateY(0);
+}
+
+.video-controls {
+
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,0.7);
+    transform: translateY(100%) traslateY(-5px);
+    transition: all .2s;
+}
+
+.video-buttons button.play:before {
+
+    content: '\f144';
+    font-family: 'Font Awesome 5 Free';
+}
+
+.video-buttons button.pause:before {
+
+    content: '\f28b';
+    font-family: 'Font Awesome 5 Free';
+}
+
+.orange-bar {
+
+    height: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.65);
+}
+
+.orange-juice {
+
+    height: 10px;
+    background-color: rgba(255,69,0,0.5);
+}
+
 
 
 
