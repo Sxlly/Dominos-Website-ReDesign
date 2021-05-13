@@ -1164,7 +1164,7 @@ a{
     background-color: #ccc;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 10vh;
 
 }
 
@@ -1204,6 +1204,7 @@ a{
     max-width: 1080px;
     position: relative;
     overflow: hidden;
+
 
 }
 
@@ -1250,6 +1251,47 @@ a{
     height: 10px;
     background-color: rgba(255,69,0,0.5);
 }
+
+
+.aboutus-toptext-container {
+
+    position: absolute;
+    top: 15vh;
+
+}
+
+.aboutus-toptext {
+
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+    font-family: 'Coda Caption', sans-serif;
+    text-shadow: 2px 5px 2px rgba(0,0,0,0.75);
+}
+
+.aboutus-item {
+
+    background-color: rgb(0,100,145, 0.75);
+    width: 1400px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 2px 5px rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25vh;
+    left: 15vw;
+    cursor: pointer;
+}
+
+.aboutus-item:hover {
+
+    height: 650px;
+    transition: all 0.75s;
+    background-color: rgb(227,24,55, 0.75);
+}
+
+
 
 
 
