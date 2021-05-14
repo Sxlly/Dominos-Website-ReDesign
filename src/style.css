@@ -1328,6 +1328,23 @@ a{
 
 }
 
+.login-box-text {
+
+    text-align: center;
+    font-family: 'Coda Caption', sans-serif;
+    padding: 30px;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+    text-shadow: 2px 5px 3px rgba(0,0,0,0.5);
+}
+
+.login-box-text:hover {
+
+    font-size: 30px;
+    text-shadow: 3px 5px 3px rgba(0,0,0,0.85);
+    transition: ease-in-out 0.3s;
+}
+
 .signup-box {
 
     background-color: rgb(227,24,55);
