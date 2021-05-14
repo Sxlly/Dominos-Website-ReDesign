@@ -1298,7 +1298,7 @@ a{
     display: flex;
     background-color: rgba(0,0,0,0.85);
     width: 100%;
-    height: 100vh;
+    height: 100%;
 
 
 }
@@ -1443,6 +1443,22 @@ a{
     transition: all 0.5s;
 
 
+}
+
+.corner-logo-container {
+
+    justify-content: center;
+    display: flex;
+    opacity: 35%;
+    position: absolute;
+    left: 16vw;
+    height: 100%;
+    top: -5vh;
+}
+
+.corner-logo {
+
+    filter: blur(4px);
 }
 
 
