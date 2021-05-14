@@ -1461,6 +1461,34 @@ a{
     filter: blur(4px);
 }
 
+.login-button-btn {
+
+    justify-content: center;
+    margin-top: 15px;
+    padding: 7.5px;
+    width: 150px;
+    background-color: rgb(65, 163, 75);
+    box-shadow: 2px 5px 3px rgba(0,0,0,0.5);
+    border: 3px;
+    border-radius: 5px;
+    font-family: 'Coda Caption', sans-serif;
+    color: rgb(255,255,255);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.35);
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.login-button-btn:hover {
+
+    width: 175px;
+    padding: 10px;
+    box-shadow: 2px 5px 3px rgba(0,0,0,0.85);
+    font-size: 20px;
+    transition: ease-in-out 0.5s;
+}
+
+
 
 
 
